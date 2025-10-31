@@ -2,14 +2,9 @@
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.2-3178C6?style=for-the-badge&logo=typescript)
-
-**A modern, full-stack task management application with a beautiful hand-drawn UI**
-
-[Features](#-features) • [Tech Stack](#️-tech-stack) • [Getting Started](#-getting-started) • [API Documentation](#-api-documentation)
 
 </div>
 
