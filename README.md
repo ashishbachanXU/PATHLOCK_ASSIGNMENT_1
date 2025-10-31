@@ -2,24 +2,20 @@
 
 <div align="center">
 
-![Task Manager](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.2-3178C6?style=for-the-badge&logo=typescript)
 
 **A modern, full-stack task management application with a beautiful hand-drawn UI**
 
-[Features](#-features) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started) • [API Documentation](#-api-documentation) • [Project Structure](#-project-structure)
+[Features](#-features) • [Tech Stack](#️-tech-stack) • [Getting Started](#-getting-started) • [API Documentation](#-api-documentation)
 
 </div>
 
 ---
 
 ## ✨ Features
-
-<table>
-<tr>
-<td width="50%">
 
 ### 🎯 Core Functionality
 - ✅ **Display Tasks** - View all tasks in a clean list
@@ -28,9 +24,6 @@
 - ✅ **Delete Tasks** - Remove tasks you no longer need
 - ✅ **Real-time Updates** - Instant UI updates after operations
 
-</td>
-<td width="50%">
-
 ### 🎨 Design & UX
 - 🎨 **Hand-drawn Style** - Minimalist, paper-like aesthetic
 - 📱 **Responsive Design** - Works on all screen sizes
@@ -38,30 +31,22 @@
 - 🔄 **Loading States** - Clear feedback during operations
 - ❌ **Error Handling** - User-friendly error messages
 
-</td>
-</tr>
-</table>
-
 ---
 
 ## 🛠️ Tech Stack
 
 ### Backend
-```
-.NET 8.0                    Modern C# framework
-ASP.NET Core Web API        RESTful API architecture
-In-Memory Storage           Fast, simple data persistence
-CORS Enabled                Cross-origin resource sharing
-```
+- **.NET 8.0** - Modern C# framework
+- **ASP.NET Core Web API** - RESTful API architecture
+- **In-Memory Storage** - Fast, simple data persistence
+- **CORS Enabled** - Cross-origin resource sharing
 
 ### Frontend
-```
-React 18                    Modern UI library
-TypeScript 5.2              Type-safe JavaScript
-Vite                        Lightning-fast build tool
-Axios                       HTTP client for API calls
-CSS3                        Custom styling with animations
-```
+- **React 18** - Modern UI library
+- **TypeScript 5.2** - Type-safe JavaScript
+- **Vite** - Lightning-fast build tool
+- **Axios** - HTTP client for API calls
+- **CSS3** - Custom styling with animations
 
 ---
 
@@ -78,6 +63,7 @@ Before you begin, ensure you have the following installed:
 | **npm** | 9.0+ | Included with Node.js |
 
 **Verify Installation:**
+
 ```bash
 # Check .NET version
 dotnet --version
@@ -97,18 +83,21 @@ npm --version
 ### 📦 Installation
 
 #### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/YOUR-USERNAME/task-manager-fullstack.git
-cd task-manager-fullstack
+git clone https://github.com/ashishbachanXU/PATHLOCK_ASSIGNMENT_1.git
+cd PATHLOCK_ASSIGNMENT_1
 ```
 
 #### 2️⃣ Backend Setup
+
 ```bash
 cd TaskManagerApi
 dotnet restore
 ```
 
 #### 3️⃣ Frontend Setup
+
 ```bash
 cd task-manager-ui
 npm install
@@ -190,11 +179,13 @@ http://localhost:5000/api/tasks
 ### Endpoints
 
 #### 📋 Get All Tasks
+
 ```http
 GET /api/tasks
 ```
 
 **Response:** `200 OK`
+
 ```json
 [
   {
@@ -208,12 +199,14 @@ GET /api/tasks
 ---
 
 #### ➕ Create Task
+
 ```http
 POST /api/tasks
 Content-Type: application/json
 ```
 
 **Request Body:**
+
 ```json
 {
   "description": "Complete assignment"
@@ -221,6 +214,7 @@ Content-Type: application/json
 ```
 
 **Response:** `201 Created`
+
 ```json
 {
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
@@ -232,12 +226,14 @@ Content-Type: application/json
 ---
 
 #### ✏️ Update Task
+
 ```http
 PUT /api/tasks/{id}
 Content-Type: application/json
 ```
 
 **Request Body:**
+
 ```json
 {
   "description": "Complete assignment",
@@ -246,6 +242,7 @@ Content-Type: application/json
 ```
 
 **Response:** `200 OK`
+
 ```json
 {
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
@@ -257,6 +254,7 @@ Content-Type: application/json
 ---
 
 #### 🗑️ Delete Task
+
 ```http
 DELETE /api/tasks/{id}
 ```
@@ -278,7 +276,7 @@ DELETE /api/tasks/{id}
 ## 📁 Project Structure
 
 ```
-task-manager-fullstack/
+PATHLOCK_ASSIGNMENT_1/
 │
 ├── 📂 TaskManagerApi/                 # Backend (.NET 8 Web API)
 │   ├── 📂 Models/
@@ -384,6 +382,7 @@ The UI follows a **minimalist, hand-drawn aesthetic** inspired by paper to-do li
 ### Backend Configuration
 
 **Port Configuration** (`Properties/launchSettings.json`):
+
 ```json
 {
   "applicationUrl": "http://localhost:5000"
@@ -391,6 +390,7 @@ The UI follows a **minimalist, hand-drawn aesthetic** inspired by paper to-do li
 ```
 
 **CORS Configuration** (`Program.cs`):
+
 ```csharp
 builder.Services.AddCors(options =>
 {
@@ -406,6 +406,7 @@ builder.Services.AddCors(options =>
 ### Frontend Configuration
 
 **API Base URL** (`src/services/taskService.ts`):
+
 ```typescript
 const API_BASE_URL = 'http://localhost:5000';
 ```
