@@ -441,6 +441,22 @@ Building this project demonstrates proficiency in:
 
 ---
 
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Project Details
+![Project Details](screenshots/project-details.png)
+
+### Dark Mode
+![Dark Mode](screenshots/dark-mode.png)
+
+### Mobile View
+![Mobile View](screenshots/mobile.png)
+
+---
+
 
 <div align="center">
 
