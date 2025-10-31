@@ -443,17 +443,14 @@ Building this project demonstrates proficiency in:
 
 ## 📸 Screenshots
 
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
+### APP
+![Dashboard](app_view.png)
 
-### Project Details
-![Project Details](screenshots/project-details.png)
-
-### Dark Mode
-![Dark Mode](screenshots/dark-mode.png)
+### Task_Completion
+![Project Details](task_completion.png)
 
 ### Mobile View
-![Mobile View](screenshots/mobile.png)
+![Mobile View](screenshots/mobile_view.png)
 
 ---
 
