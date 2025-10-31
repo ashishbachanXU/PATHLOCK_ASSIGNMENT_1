@@ -450,7 +450,7 @@ Building this project demonstrates proficiency in:
 ![Project Details](task_completion.png)
 
 ### Mobile View
-![Mobile View](screenshots/mobile_view.png)
+![Mobile View](mobile_view.png)
 
 ---
 
