@@ -365,17 +365,6 @@ PATHLOCK_ASSIGNMENT_1/
 
 ---
 
-## 🎨 Design Philosophy
-
-The UI follows a **minimalist, hand-drawn aesthetic** inspired by paper to-do lists:
-
-- **Warm Color Palette**: Beige background (#e8e4dc) mimics paper
-- **Thick Borders**: 2.5-3px solid borders for hand-drawn feel
-- **Custom Checkboxes**: Square boxes with blue checkmarks when completed
-- **Smooth Animations**: Subtle hover effects and transitions
-- **Typography**: Comic Sans MS / Marker Felt for friendly appearance
-
----
 
 ## 🔧 Configuration
 
@@ -411,39 +400,6 @@ builder.Services.AddCors(options =>
 const API_BASE_URL = 'http://localhost:5000';
 ```
 
----
-
-## 🐛 Troubleshooting
-
-<details>
-<summary><b>❌ "dotnet: command not found"</b></summary>
-
-**Solution:**
-1. Install .NET 8 SDK from [official website](https://dotnet.microsoft.com/download/dotnet/8.0)
-2. Close and reopen your terminal
-3. Verify: `dotnet --version`
-</details>
-
-<details>
-<summary><b>❌ "node: command not found"</b></summary>
-
-**Solution:**
-1. Install Node.js from [official website](https://nodejs.org/)
-2. Close and reopen your terminal
-3. Verify: `node --version`
-</details>
-
-<details>
-<summary><b>❌ CORS Error in Browser</b></summary>
-
-**Solution:**
-1. Ensure backend is running on port 5000
-2. Check CORS configuration in `Program.cs`
-3. Verify frontend is accessing `http://localhost:5000`
-</details>
-
-<details>
-<summary><b>❌ "Failed to load tasks"</b></summary>
 
 **Solution:**
 1. Verify backend is running (`dotnet run` in TaskManagerApi folder)
@@ -459,14 +415,6 @@ const API_BASE_URL = 'http://localhost:5000';
 - **Backend**: Change port in `Properties/launchSettings.json`
 - **Frontend**: Vite will automatically suggest an alternative port
 </details>
-
----
-
-## 📚 Additional Documentation
-
-- **[GETTING-STARTED.md](GETTING-STARTED.md)** - Detailed beginner-friendly setup guide
-- **[ARCHITECTURE.md](ARCHITECTURE.md)** - In-depth technical architecture
-- **[DEPLOYMENT-GUIDE.md](DEPLOYMENT-GUIDE.md)** - Deploy to Azure, Vercel, Railway
 
 ---
 
@@ -519,22 +467,7 @@ Building this project demonstrates proficiency in:
 
 ---
 
-## 🤝 Contributing
-
-This is an educational project. Feel free to fork and experiment!
-
----
-
-## 📄 License
-
-This project is for educational purposes.
-
----
 
 <div align="center">
-
-**Built with ❤️ using .NET 8 and React**
-
-⭐ Star this repo if you found it helpful!
 
 </div>
