@@ -395,24 +395,6 @@ builder.Services.AddCors(options =>
 const API_BASE_URL = 'http://localhost:5000';
 ```
 
-
-**Solution:**
-1. Verify backend is running (`dotnet run` in TaskManagerApi folder)
-2. Check backend console for errors
-3. Open browser DevTools (F12) and check Console tab
-4. Verify API URL in `taskService.ts`
-</details>
-
-<details>
-<summary><b>❌ Port Already in Use</b></summary>
-
-**Solution:**
-- **Backend**: Change port in `Properties/launchSettings.json`
-- **Frontend**: Vite will automatically suggest an alternative port
-</details>
-
----
-
 ## ✅ Assignment Requirements
 
 This project fulfills all requirements for the Basic Task Manager assignment:
